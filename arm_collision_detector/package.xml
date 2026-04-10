@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>arm_collsion_detector</name>
+  <name>arm_collision_detector</name>
   <version>0.0.0</version>
   <description>Package to detect and identify collision on a robot arm</description>
   <maintainer email="matheussousasf@gmail.com">Matheus Sousa Soares</maintainer>
@@ -11,6 +11,7 @@
 
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
+  <depend>arm_collision_detector_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
